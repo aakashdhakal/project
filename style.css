@@ -1,0 +1,104 @@
+.topnav
+{
+	background-color:gray;
+	overflow: hidden;
+	margin-top: -10px;
+	width: 100%;
+}
+.topnav a 
+{
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 10px;
+  font-family: Painter;
+
+}
+.topnav a:hover
+{
+  background-color: #070073;
+  color: white;
+}
+.topnav img
+{
+	height: 109px;
+	width: 100px;
+	margin-bottom: 0px;
+}
+.topnav h1
+{
+	margin-left: 140px;
+	color: white;
+	margin-top: -100px;
+	font-family: Magneto;
+	font-size: 60px;
+}
+.topnav h3
+{
+	margin-left: 140px;
+	color: white;
+	margin-top: -50px;
+	font-family: Magneto;
+}
+.topnav input
+{
+	margin-left: 960px;
+	border-width: 5px;
+	border-color: green;
+}
+.topnav input.submit:hover
+{
+	color: yellow;
+	background-color: red;
+}
+.topnav input.submit
+{
+	color: white;
+	background-color: gray;
+	border-color: green;
+	margin-left: 1140px;
+	margin-top: -26px;
+}
+.login
+{
+	background-color: white;
+	box-sizing: content-box;
+	width: 500px;
+	height: 850px;
+	border: 10px solid black;
+	margin: auto;
+}
+.login h1
+{
+	font-family: magneto;
+	font-size: 50px;
+	color:white ;
+	background-color: black;
+	
+}
+.login input
+{
+	border-width: 3px;
+}
+.login input.submit
+{
+	color: white;
+	background-color: gray;
+	border-color: green;
+	font-family: Stencil Std;
+	font-size: 30px;
+}
+.login p
+{
+	font-size: 20px;
+	font-family: impact;
+}
+.login input.submit:hover
+{
+	color: black;
+	background-color: white;
+}
+
