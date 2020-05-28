@@ -1,9 +1,11 @@
 .topnav
 {
-	background-color:gray;
+	background-color:#022D36;
 	overflow: hidden;
 	margin-top: -10px;
 	width: 100%;
+	margin-right: auto;
+    margin-left: auto;
 }
 .topnav a 
 {
@@ -15,25 +17,28 @@
   font-size: 17px;
   margin-top: 10px;
   font-family: Painter;
-
+  opacity: 0.6;
 }
 .topnav a:hover
 {
-  background-color: #070073;
+  background-color: #943126;
   color: white;
+  opacity: 1;
+  transition: 0.3s;
+  transform: scale(1.1);
 }
 .topnav img
 {
 	height: 109px;
 	width: 100px;
-	margin-bottom: 0px;
+	margin-bottom: -9px;
 }
 .topnav h1
 {
 	margin-left: 140px;
 	color: white;
-	margin-top: -100px;
-	font-family: Magneto;
+	margin-top: -95px;
+	font-family: painter;
 	font-size: 60px;
 }
 .topnav h3
@@ -45,60 +50,462 @@
 }
 .topnav input
 {
-	margin-left: 960px;
-	border-width: 5px;
-	border-color: green;
+	margin-left: 1100px;
+	border: 5px double;
+	border-color: #0B5345;
+	margin-top: -50px;
+	width: 195px;
+	padding: 2px;
 }
-.topnav input.submit:hover
+.topnav button:hover
 {
 	color: yellow;
-	background-color: red;
+	background-color: #78281F;
+    transform: scale(1.1);
+	transition: 0.5s;
 }
-.topnav input.submit
+.topnav button
 {
 	color: white;
 	background-color: gray;
 	border-color: green;
-	margin-left: 1140px;
-	margin-top: -26px;
+	margin-left: 1290px;
+	margin-top: -50px;
+	padding: 6px;
+	padding-right: 10px;
+	padding-bottom: 6px;
 }
 .login
 {
-	background-color: white;
+	background-color: #D6D608;
 	box-sizing: content-box;
-	width: 500px;
-	height: 850px;
+	width: 570px;
+	height: 530px;
 	border: 10px solid black;
 	margin: auto;
+	margin-top: 10px;
 }
 .login h1
 {
-	font-family: magneto;
+	font-family: Painter;
 	font-size: 50px;
 	color:white ;
-	background-color: black;
+	background-color: #400000;
+	padding: 5px;
 	
 }
 .login input
 {
-	border-width: 3px;
+	border: 2px solid black;
+	
+}
+.login input:focus
+{
+	background-color: #E0E1EF;
 }
 .login input.submit
 {
 	color: white;
-	background-color: gray;
+	background-color: #0C4226;
 	border-color: green;
-	font-family: Stencil Std;
-	font-size: 30px;
+	font-family: Courier;
+	font-size: 20px;
+	border: 2px solid #0C0F42;
+	border-radius: 20px;
 }
 .login p
 {
 	font-size: 20px;
-	font-family: impact;
+	font-family: Courier;
 }
 .login input.submit:hover
 {
-	color: black;
-	background-color: white;
+	background-color: #420C0C;
+}
+#b
+{
+	text-decoration: none;
+	color: black
+}
+#b:hover
+{
+	color:#19006D;
+}
+.vl 
+{
+  border-left: 10px solid #022D36;
+  height: 110px;
+  margin-left: -10px;
+  margin-top: -110px;
+}
+.vl 
+{
+  border-right: 10px solid #022D36;
+  height: 110px;
+  margin-right: -8px;
+  margin-top: -110px;
+}
+#myBtn {
+	display: hidden;
+	position: fixed; 
+	bottom: 20px; 
+	right: 30px; 
+	z-index: 99; 
+	border: none; 
+	outline: none; 
+	background-color: #022D36; 
+	color: white; 
+	cursor: pointer; 
+	padding: 15px; 
+	border-radius: 10px; 
+	font-size: 18px; 
 }
 
+#myBtn:hover {
+	background-color:#943126; 
+	opacity: 1;
+	transition: 0.3s;
+	transform: scale(1.1);
+}
+::-webkit-scrollbar {
+  width: 10px;
+} 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #234f1e; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #943126; 
+}
+.footer {
+	background-color: #808588;
+	padding: 9px;
+	text-align: center;
+	color: white;
+	bottom:-20px;
+	width: 100%;
+	margin-left: -10px;
+	margin-top: 20px;
+	z-index: $zindex-fixed;
+	position: relative;
+}
+.footer a
+{
+	text-decoration: none;
+	float: left;
+	padding-left: 20px;
+	color: white;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  width: 25%;
+  margin: 5px;
+  float: left;
+  border: solid 5px #3333FF;
+}
+.column:hover
+{
+	opacity: 0.7;
+	transform: scale(1.01);
+	transition: 0.5s;
+}
+.row:after 
+{
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+iframe
+{
+	border: 10px solid #3333FF ;
+	margin: 55px;
+	width: 40%;
+}
+h1
+{
+	font-size: 35px;
+	font-family: Courier;
+}
+.btn
+{
+	float: right;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 17px;
+	margin-top: -56px;
+	font-family: Painter;
+	margin-right: 30px;
+	background-color: #022D36;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+}
+.btn:hover
+{
+  background-color: #4632C1;
+  color: white;
+  opacity: 1;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right: 50px;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #022D36;
+  margin-left: 440px;
+  border-radius: 50px;
+  margin-top: 2px;
+}
+.container:hover input ~ .checkmark {
+  background-color: #08687C;
+}
+.container input:checked ~ .checkmark {
+  background-color: #943126;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.container .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.fb
+{
+	background-color:#3B5998;
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	padding:6px;
+	border: 1px solid black;
+}
+.twitter
+{
+	background-color:#55ACEE;
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	padding:6px;
+	border: 1px solid black;
+}
+.google
+{
+	background-color:#dd4b39;
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+	padding:6px;
+	border: 1px solid black;
+}
+.col
+{
+	font-family: comic sans ms
+}
+.fb:hover
+{
+  opacity: 0.9;
+}
+.twitter:hover
+{
+  opacity: 0.9;
+}
+.google:hover
+{
+  opacity: 0.9;
+}
+.signup
+{
+	background-color: #D6D608;
+	box-sizing: content-box;
+	width: 670px;
+	height: 830px;
+	border: 10px solid black;
+	margin: auto;
+	margin-top: 10px;
+}
+.signup h1
+{
+	font-family: Painter;
+	font-size: 50px;
+	color:white ;
+	background-color: #400000;
+	padding: 5px;
+	
+}
+.signup input
+{
+	border: 2px solid black;
+	
+}
+.signup input:focus
+{
+	background-color: #E0E1EF;
+}
+.signup input.submit
+{
+	color: white;
+	background-color: #0C4226;
+	border-color: green;
+	font-family: Courier;
+	font-size: 20px;
+	border: 2px solid #0C0F42;
+	border-radius: 20px;
+}
+.signup p
+{
+	font-size: 20px;
+	font-family: Courier;
+}
+.signup input.submit:hover
+{
+	background-color: #420C0C;
+}
+#b
+{
+	text-decoration: none;
+	color: black
+}
+#b:hover
+{
+	color:#19006D;
+}
+select {
+  height: 40px;
+  font-size: 80%;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0;
+  background-color: #022D36;
+  border: none;
+  color: white;
+  padding: 10px;
+  padding-right: 38px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  width: 200px;
+}
+select::-ms-expand {
+  display: none; 
+}
+select:hover,
+select:focus {
+  color: white;
+  background-color: #943126;
+}
+.dob_selector
+{
+	width: 150px;
+}
+.radio {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.active {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio:hover input ~ .active {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio input:checked ~ .active {
+  background-color: #943126;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.active:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio input:checked ~ .active:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio .active:after {
+ 	top: 3.2px;
+	left: 3.6px;
+	width: 19px;
+	height: 19px;
+	border-radius: 50%;
+	background: white;
+}

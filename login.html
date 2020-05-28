@@ -1,21 +1,55 @@
 <html>
 <head>
+<title>A.D Entertainment</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="icon" href="favicon.ico" type="image/icon" sizes="16x16">
 <link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="main.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-<div class="login" style="width:500px;height:500px;">
-	<center><h1><u>Login</u></h1>
+<div class="topnav" type="navbar">
+	<a href="login.html">LOGIN</a>
+	<a href="https://www.youtube.com/channel/UCNRs_NtDNlBcbuXf74YcQNA">Subscribe</a> 
+	<a href="contact.html">About</a>
+	<a href="gallery.html">Gallery</a>
+	<a href="home.html">Home</a>
+	<img src="A.D.png" type="image/png">
+	<h1>A.D Entertainment<sup style="font-size:20px;font-family:papyrus;color:#edc967">Free</sup></h1>
+	<input type="text" placeholder="Search">
+	<button type="submit" ><i class="fa fa-search"></i></button>
+</div>
+<div class="vl"></div>
+<div class="vl"></div>
+<div class="login">
+	<center><h1>Login</h1>
 	<form>
 		<p>Username:<input type="text" name="firstname" placeholder="Ram" required><br><br>
 		E-mail:<input type="email" name="firstname" placeholder=" abc@gmail.com" required><br><br>
-		Password:<input type="password" name="firstname" required><br><br>
-		Remember Password<input type="checkbox"></p><br><br>
+		Password:<input type="password" name="player_password" id="myInput" required><span toggle="#password-field" class="fa fa-fw fa-eye field_icon toggle-password"></span><br><br>
+		<label div class="container">Remember Password
+			<input type="checkbox" checked="checked">
+			<span class="checkmark"></span>
+		</label><br><br>
+      <div class="col">
+        <a href="facebook.com" class="fb">
+          <i class="fa fa-facebook"></i> Login with Facebook
+        </a>
+        <a href="twitter.com" class="twitter">
+          <i class="fa fa-twitter"></i> Login with Twitter
+        </a>
+        <a href="gmail.com" class="google">
+         <i class="fa fa-envelope-square" style="padding: 5px;"></i>Login with E-mail
+        </a>
+      </div><br>
 		<input type="submit" value="Log in" class="submit">
 		<input type="reset" value="Clear" class="submit"><br><br>
-		<a href="" >Forget Password?</a>
+		<a href="" id="b">Forget Password?</a>
 		<hr>
 	</form>
-		<a href="signup.html" target="body">Create New Account</a> 
+		<a href="signup.html" id="b">Create New Account</a> 
 </div>
+
 </body>
 </html>
