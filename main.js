@@ -21,7 +21,6 @@ $(document).on('click', '.toggle-password', function() {
     var input = $("#psw");
     input.attr('type') === 'password' ? input.attr('type','text') : input.attr('type','password')
 });
- toggleswitch = document.getElementById('#theme-toggler')
 $(document).ready(function(){
 
     // Check local storage and set theme
@@ -46,6 +45,7 @@ $(document).ready(function(){
 
             $('body').removeClass('light-mode').addClass('dark-mode');
             localStorage.theme = 'dark-mode';
+
 
 
          }
