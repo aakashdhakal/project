@@ -4,10 +4,10 @@ mybutton = document.getElementById("myBtn");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop < 20) {
     mybutton.style.display = "block";
   } else {
-    mybutton.style.display = "none";
+    mybutton.style.display = "block";
   }
 }
 function topFunction() {
@@ -21,6 +21,7 @@ $(document).on('click', '.toggle-password', function() {
     var input = $("#psw");
     input.attr('type') === 'password' ? input.attr('type','text') : input.attr('type','password')
 });
+
 $(document).ready(function(){
 
     // Check local storage and set theme
