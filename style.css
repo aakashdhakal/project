@@ -550,7 +550,7 @@ select:focus {
 }
 @media only screen and (max-width: 768px) {
  .topnav h1 {
-	font-size: 33px;
+	font-size: 30px;
 	float:left;
 	padding-top: 10px;
 	margin-top: -65px;
@@ -588,7 +588,7 @@ select:focus {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .topnav a {display: none;}
   .topnav a.icon {
     float: right;
@@ -598,7 +598,7 @@ select:focus {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -613,6 +613,6 @@ select:focus {
     text-align: right;
 	font-size: 13px;
 	margin-top: -8px;
-	margin-right: 10px;
+	margin-right: 2px;
   }
 }
