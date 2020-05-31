@@ -548,7 +548,7 @@ select:focus {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
  .topnav h1 {
 	font-size: 20px;
 	float:left;
@@ -594,7 +594,7 @@ select:focus {
     float: right;
     display: block;
 	margin-top: -100px;
-	margin-right: -15px;
+	margin-right: -10px;
   }
 }
 
@@ -613,6 +613,6 @@ select:focus {
     text-align: right;
 	font-size: 13px;
 	margin-top: -8px;
-	margin-right: 2px;
+	padding-right: 0px;
   }
 }
