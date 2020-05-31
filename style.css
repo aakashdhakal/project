@@ -588,7 +588,7 @@ select:focus {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .topnav a {display: none;}
   .topnav a.icon {
     float: right;
@@ -598,7 +598,7 @@ select:focus {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
