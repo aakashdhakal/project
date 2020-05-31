@@ -548,7 +548,7 @@ select:focus {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 481px) {
  .topnav h1 {
 	font-size: 20px;
 	float:left;
@@ -588,7 +588,7 @@ select:focus {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 481px) {
   .topnav a {display: none;}
   .topnav a.icon {
     float: right;
@@ -598,7 +598,7 @@ select:focus {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 481px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -611,8 +611,8 @@ select:focus {
     float: right;
     display: block;
     text-align: right;
-	font-size: 13px;
-	margin-top: -8px;
-	padding-right: 0px;
+	font-size: 10px;
+	margin-top: 28px;
+	padding-right: 15px;
   }
 }
