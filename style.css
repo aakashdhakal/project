@@ -6,6 +6,7 @@
 	width: 100%;
 	margin-right: auto;
     margin-left: auto;
+	height: 70px;
 }
 .topnav a 
 {
@@ -27,19 +28,12 @@
   transition: 0.3s;
   transform: scale(1.1);
 }
-.topnav img
-{
-	height: 109px;
-	width: 100px;
-	margin-bottom: -9px;
-}
 .topnav h1
 {
-	margin-left: 140px;
 	color: white;
-	margin-top: -95px;
-	font-family: painter;
+	font-family: coiny;
 	font-size: 60px;
+	margin-top: -10px;
 }
 .topnav h3
 {
@@ -550,7 +544,7 @@ select:focus {
 }
 @media only screen and (max-width: 481px) {
  .topnav h1 {
-	font-size: 20px;
+	font-size: 15px;
 	float:left;
 	padding-top: 10px;
 	margin-top: -65px;
