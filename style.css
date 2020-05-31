@@ -548,7 +548,7 @@ select:focus {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
  .topnav h1 {
 	font-size: 20px;
 	float:left;
@@ -588,7 +588,7 @@ select:focus {
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .topnav a {display: none;}
   .topnav a.icon {
     float: right;
@@ -598,7 +598,7 @@ select:focus {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
