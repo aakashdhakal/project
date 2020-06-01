@@ -562,7 +562,7 @@ select:focus {
 	float:left;
 	padding-top: 10px;
 	margin-bottom: -1065px;
-	position: center;
+	text-align: center;
   }
   .topnav img
   {
@@ -627,7 +627,11 @@ select:focus {
   }
   iframe
   {
-	  width: 360px;
+	  width: 320px;
 	  margin-left: 10px;
+  }
+  #myBtn
+  {
+	  margin-right: 12px;
   }
 }
